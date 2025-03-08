@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class SumofTwoNumbers {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
             System.out.println("Enter two numbers :");
@@ -10,7 +11,6 @@ public class SumofTwoNumbers {
 
             int sum = num1 + num2 ;
 
-            System.err.println("Sum = "+sum);
-        
+            System.err.println("Sum = "+sum); 
     }
 }
