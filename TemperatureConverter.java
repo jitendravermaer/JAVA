@@ -24,7 +24,6 @@ public class TemperatureConverter {
             System.out.println("Invalid unit of measurement. Please enter C or F.");
             return; // Exit the program if the input is invalid
         }
-
         input.close(); // Close the scanner to prevent resource leaks. Important!
     }
 }
